@@ -12,11 +12,6 @@ export default function MultiStepForm(props) {
       <div style={styles.stepperContainer}>
 
       {React.Children.map(props.children, (child, i) => {
-        console.log(child)
-        if(child.type.name !== 'Step') {
-          
-          return
-        }
         if (i === Children.count(props.children) - 1)
         return (
           <Fragment>
@@ -39,8 +34,6 @@ export default function MultiStepForm(props) {
       </div>
       {
         React.Children.map(props.children, (child, i) => {
-          if(child.type.name !== 'Step')
-            return 
           if((i+1) === props.activeStep)
             return child
           return cloneElement(child, { hidden: true })
