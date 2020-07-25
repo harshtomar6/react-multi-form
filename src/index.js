@@ -1,6 +1,7 @@
-import React from 'react'
-import styles from './styles.module.css'
+import MultiStepForm from './components/MultiStepForm';
+import Step from './components/Step';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export {
+  MultiStepForm,
+  Step
+};

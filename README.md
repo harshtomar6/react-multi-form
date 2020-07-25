@@ -2,7 +2,10 @@
 
 > A React Component to quicky generate a multi-step form
 
-[![NPM](https://img.shields.io/npm/v/react-multistep-form.svg)](https://www.npmjs.com/package/react-multistep-form) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-multistep-form.svg)](https://www.npmjs.com/package/react-multistep-form) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) 
+
+## Demo
+![Demo Link](https://media.giphy.com/media/Q7v8WigTrzCmcUQvnA/giphy.gif)
 
 ## Install
 
@@ -15,15 +18,28 @@ npm install --save react-multistep-form
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-multistep-form'
-import 'react-multistep-form/dist/index.css'
+import { MultiStepForm, Step } from 'react-multistep-form';
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <MutliStep activeStep={1}>
+        <Step label="one">
+          <p>One</p>
+        </Step>
+        <Step label="Two">
+          <p>Two</p>
+        </Step>
+        <Step label="Three">
+          <p>Three</p>
+        </Step>
+      </MultiStep>
+    )
   }
 }
 ```
+
+## Documentation
 
 ## License
 
