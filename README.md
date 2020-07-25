@@ -1,8 +1,8 @@
-# react-multistep-form
+# react-multi-form
 
 > A React Component to quicky generate a multi-step form
 
-[![NPM](https://img.shields.io/npm/v/react-multistep-form.svg)](https://www.npmjs.com/package/react-multistep-form) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) 
+[![NPM](https://img.shields.io/npm/v/react-multi-form.svg)](https://www.npmjs.com/package/react-multi-form) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) 
 
 ## Demo
 ![Demo Link](https://media.giphy.com/media/Q7v8WigTrzCmcUQvnA/giphy.gif)
@@ -21,7 +21,7 @@ npm install --save react-multistep-form
 ```jsx
 import React, { Component } from 'react'
 
-import { MultiStepForm, Step } from 'react-multistep-form';
+import { MultiStepForm, Step } from 'react-multi-form';
 
 class Example extends Component {
   render() {
@@ -59,7 +59,7 @@ This package exports two components `<MultiStepForm />` and `<Step />`.
 |---------|----|------|-------|--------|
 |label|String|label text to be rendered in the top stepper | - | NO|
 
-See the example code [here](https://github.com/harshtomar6/react-multistep-form/blob/master/example/src/App.js)
+See the example code [here](https://github.com/harshtomar6/react-multi-form/blob/master/example/src/App.js)
 
 ## License
 

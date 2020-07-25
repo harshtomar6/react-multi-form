@@ -4,7 +4,7 @@
   "description": "A React Component to quicky generate a multi-step form",
   "author": "harshtomar6",
   "license": "MIT",
-  "repository": "harshtomar6/react-multistep-form",
+  "repository": "harshtomar6/react-multi-form",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
