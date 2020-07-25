@@ -59,7 +59,7 @@ This package exports two components `<MultiStepForm />` and `<Step />`.
 |---------|----|------|-------|--------|
 |label|String|label text to be rendered in the top stepper | - | NO|
 
-See the example code 
+See the example code [here](https://github.com/harshtomar6/react-multistep-form/blob/master/example/src/App.js)
 
 ## License
 
