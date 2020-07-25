@@ -9,7 +9,7 @@ const App = () => {
   const [active, setActive] = React.useState(1)
   return (
     <div style={{ maxWidth: 500, margin: '40px auto' }}>
-      <MultiStepForm activeStep={active} accentColor='#24a19c'>
+      <MultiStepForm activeStep={active} accentColor='#30475e'>
         <Step label='shipping'>
           <Shipping />
         </Step>

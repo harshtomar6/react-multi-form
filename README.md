@@ -7,6 +7,9 @@
 ## Demo
 ![Demo Link](https://media.giphy.com/media/Q7v8WigTrzCmcUQvnA/giphy.gif)
 
+### Add your Brand Colors
+![Link](https://media.giphy.com/media/dAcoQshy4WBrlUz5CZ/giphy.gif)
+
 ## Install
 
 ```bash
@@ -40,6 +43,23 @@ class Example extends Component {
 ```
 
 ## Documentation
+
+This package exports two components `<MultiStepForm />` and `<Step />`.
+
+### `<MultiStepForm />`
+### Props
+|Prop Name|type| Description|default|required|
+|---------|----|-------|-------|--------|
+|activeStep|Int|determines the active step | - | YES|
+|accentColor|String|accent color of the stepper|#24a19c|NO|
+
+### `<Step />`
+### Props
+|Prop Name|type|Description|default|required|
+|---------|----|------|-------|--------|
+|label|String|label text to be rendered in the top stepper | - | NO|
+
+See the example code 
 
 ## License
 
