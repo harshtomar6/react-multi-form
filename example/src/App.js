@@ -1,5 +1,5 @@
 import React from 'react'
-import { MultiStepForm, Step } from 'react-multistep-form'
+import { MultiStepForm, Step } from 'react-multi-form'
 import Shipping from './components/Shipping'
 import Payment from './components/Payment'
 import Confirmation from './components/Confirmation'
@@ -9,7 +9,7 @@ const App = () => {
   const [active, setActive] = React.useState(1)
   return (
     <div style={{ maxWidth: 500, margin: '40px auto' }}>
-      <MultiStepForm activeStep={active} accentColor='#30475e'>
+      <MultiStepForm activeStep={active}>
         <Step label='shipping'>
           <Shipping />
         </Step>

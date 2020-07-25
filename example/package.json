@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
-    "react-multistep-form": "link:..",
+    "react-multi-form": "^1.0.2",
     "react-scripts": "link:../node_modules/react-scripts",
     "styled-components": "^5.1.1"
   },
