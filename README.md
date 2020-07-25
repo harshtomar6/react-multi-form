@@ -5,6 +5,8 @@
 [![NPM](https://img.shields.io/npm/v/react-multi-form.svg)](https://www.npmjs.com/package/react-multi-form) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![style: styled-components](https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e)](https://github.com/styled-components/styled-components) 
 
 ## Demo
+See Live Demo [here](https://harshtomar6.github.io/react-multi-form/)
+
 ![Demo Link](https://media.giphy.com/media/Q7v8WigTrzCmcUQvnA/giphy.gif)
 
 ### Add your Brand Colors
@@ -13,7 +15,7 @@
 ## Install
 
 ```bash
-npm install --save react-multistep-form
+npm install --save react-multi-form
 ```
 
 ## Usage
