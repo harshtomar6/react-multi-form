@@ -12,6 +12,7 @@ const Pill = styled.div`
     &:after {
       position: absolute;
       content: '${props.label}';
+      width: max-content;
       color: ${props => props.active || props.complete ? (props.accentColor || '#24a19c'): '#999'};
       font-weight: ${props => props.active ? 600 : 400};
       text-transform: uppercase;

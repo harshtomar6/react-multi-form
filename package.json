@@ -1,6 +1,6 @@
 {
   "name": "react-multi-form",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React Component to quicky generate a multi-step form",
   "author": "harshtomar6",
   "license": "MIT",
@@ -53,5 +53,6 @@
   ],
   "dependencies": {
     "styled-components": "^5.1.1"
-  }
+  },
+  "keywords": ["react-multi-form", "react-multi-step", "Multi Step Form React", "multi-step" ]
 }
